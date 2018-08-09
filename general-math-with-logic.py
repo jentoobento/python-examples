@@ -70,7 +70,7 @@ totalarea = (2 * wall1) + (2 * wall2)
 
 areatopaint = totalarea - avoidarea
 
-#assumtion that 1 paintcan covers approximately 400 sq ft
+#assumption that 1 paintcan covers approximately 400 sq ft
 numgallons = areatopaint / 400
 numgallons = int(math.ceil(numgallons))
 price = (numgallons * cost) * coats
